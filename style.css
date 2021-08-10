@@ -1,6 +1,5 @@
 .container{
-	/*background: #CAD9D6;
-	border: 1px solid black;*/
+
 	height: 500px;
 	width: 60%;
 	margin-left:250px  ;
@@ -11,22 +10,36 @@
 
 body {
 	background-color: #CAD9D6;
-	/*background-image: radial-gradient(white, grey)*/
+
+}
+#quiz{
+	text-shadow: 5px 5px 10px black;
 }
 h1{
 text-align: center;
 font-size: 50px;
-
+}
+#quiz {
+  width: 200px;
+  height: 50px;
+  font-weight: bolder;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+@keyframes mymove {
+  from {left: 15px;}
+  to {left: 85%;}
 }
 h4{
 	display: inline;
+	font-size: 30px;
 }
 #first{
 margin:10px 150px;
 }
 #btn{
 	
-  background-color: #63767A;
+  background-color: lightgrey;
   border: none;
   color: white;
   font-weight: 900;
@@ -39,19 +52,25 @@ margin:10px 150px;
   margin-bottom: 300px;
 
 }
+#btn:hover {
+  background-color: #63767A;
+  transition: color 100ms ease-out;
+}
+
 #input{
 	 border-radius: 30px;
 	 border: none;
 	   height: 30px;
 
 }
-#rd1{
+.test{
 
-	font-weight: 900px;
-	font-size: 500px;
+	font-weight: 40px;
+	font-size: 20px;
 }
 a{
 
 	text-decoration: none;
 	color: ghostwhite;
 }
+
