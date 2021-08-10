@@ -6,9 +6,12 @@
 	margin-left:250px  ;
 	position: relative;
 
-}
+} 
+
+
 body {
 	background-color: #CAD9D6;
+	/*background-image: radial-gradient(white, grey)*/
 }
 h1{
 text-align: center;
