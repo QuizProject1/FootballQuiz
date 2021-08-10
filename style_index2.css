@@ -53,3 +53,21 @@ img{
 	  border-radius: 30px;
 }
 
+.new_elemnt{
+		color: red;
+}
+
+a button{
+	 background-color: #63767A;
+  border: none;
+  color: white;
+  font-weight: 900;
+
+  border-radius: 30px;
+  width: 180px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left:540px;
+  
+
+}

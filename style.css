@@ -5,7 +5,9 @@
 	margin-left:250px  ;
 	position: relative;
 
-}
+} 
+
+
 body {
 	background-color: #CAD9D6;
 
@@ -54,7 +56,7 @@ margin:10px 150px;
   background-color: #63767A;
   transition: color 100ms ease-out;
 }
-}
+
 #input{
 	 border-radius: 30px;
 	 border: none;
