@@ -1,4 +1,4 @@
-var currentQiuz;
+// track the right link 
 $("#id0").click(function(){
     
     $("#link").attr("href","index2.html")
@@ -7,16 +7,16 @@ $("#id0").click(function(){
 $("#id1").click(function(){
 
     $("#link").attr("href","index3.html")
-    currentQiuz=$("#link").attr("href")
+    
 
 })
- console.log(currentQiuz)
+ 
 $("#id2").click(function(){
     
     $("#link").attr("href","index4.html")
-    currentQiuz=$("#link").attr("href")
+    
 })
-
+// check the correct result for the first quiz and hide the whole div and show the result 
 $(".result").click(function(){
     var inputs1 = $("input")
     var count = 0
@@ -44,7 +44,7 @@ button2.attr("href","index1.html")
 div.append(button,button2)     
 
 })
-
+// check the correct result for the second quiz and hide the whole div and show the result
  $(".result2").click(function(){
     var inputs = $("input")
     var count1 = 0
@@ -74,6 +74,7 @@ button2.attr("href","index1.html")
     div.append(button,button2)      
 
  })    
+ // check the correct result for the third quiz and hide the whole div and show the result
   $(".result3").click(function(){
     var count2 = 0                   
     var inputs = $("input")
@@ -82,7 +83,7 @@ button2.attr("href","index1.html")
     for (var i = 0 ;i<inputs.length;i++){
         if( inputs[i].checked ){
             for (var j=0;j<array_kpop.length;j++){
-                if( span[i].innerText ===array_kpop[j] ){
+                if( span[i].innerText ==array_kpop[j] ){
                     count2++
                 }
             }     
@@ -138,3 +139,20 @@ button2.attr("href","index1.html")
 
 //             x.time = 0;
 //         }
+
+
+
+
+// $("#btn").click(function(){
+// var t = 0
+// var $tag = $("<div>"+t+"</div>")
+// var hold = setInterval(function(){
+//     t++
+//     $tag.text(t)
+// },1000)
+
+//     $('.result').append($tag)
+//     $(".result").click(function(){
+//     clearInterval(hold)
+// })
+// })
